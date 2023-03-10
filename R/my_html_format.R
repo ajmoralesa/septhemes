@@ -10,7 +10,7 @@ my_html_format <- function(toc = TRUE, ...) {
 
     # locations of resource files in the package
     pkg_resource <- function(...) {
-        system.file(..., package = "septheme")
+        system.file(..., package = "septhemes")
     }
 
     css <- pkg_resource("rmarkdown/resources/insepstyle.css")
