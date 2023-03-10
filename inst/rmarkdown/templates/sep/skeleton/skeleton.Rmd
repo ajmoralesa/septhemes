@@ -4,15 +4,8 @@ subtitle: "Template subtitle"
 author: "Your Name"
 date: "The Date"
 output: 
-  html_document: 
-    toc: yes
-    toc_float:
-      collapsed: no
-      smooth_scroll: yes
-    css: insepstyle.css
-    includes:
-      in_header: header.html
-      after_body: footer.html
+  septheme::my_html_format:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
