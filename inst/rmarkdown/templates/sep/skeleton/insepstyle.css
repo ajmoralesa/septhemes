@@ -1,0 +1,99 @@
+body {
+  font: 16px "Century Gothic", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2c2f65;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h1.title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #2c2f65;
+  text-align: center;
+}
+
+h3.subtitle {
+  text-align: center;
+  color: red;
+}
+
+h4.date {
+  text-align: center;
+}
+
+.title {
+  margin-top: 2em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5 {
+  padding-top: 3em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  margin-bottom: 0.15em;
+}
+
+@media (min-width: 992px) {
+  .col-md-9 {
+    width: 75%;
+    padding-left: 5em !important;
+  }
+}
+
+/*----------LOGO above TOC---------*/
+#TOC::before {
+  content: "";
+  display: block;
+  height: 200px;
+  margin: 2em 20px 40px 20px;
+  background-image: url("logo.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  color: #f5f5f5;
+  background-color: #2c2f65;
+  border-color: #2c2f65;
+}
+
+/* Divider line above footer */
+.footer hr {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #2c2f65;
+  color: white;
+  border-top: 5px solid #dcc283;
+  border-bottom: 10px solid #dcc283;
+}
+
+.footer-logo {
+  height: 50px;
+  align-items: center;
+}
+
+.figure-caption {
+  font-size: 14px;
+}
+
+.subtitle {
+  color: red;
+}

@@ -1,0 +1,4 @@
+name: sep
+description: >
+  RMarksdown theme containing the INSEP logo in the header and a footer with the SEP lab information.
+create_dir: FALSE
