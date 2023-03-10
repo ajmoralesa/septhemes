@@ -88,6 +88,9 @@ h4.date {
 .footer-logo {
   height: 50px;
   align-items: center;
+  background-image: url("insep_white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .figure-caption {

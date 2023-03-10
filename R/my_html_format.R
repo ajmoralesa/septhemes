@@ -27,7 +27,7 @@ my_html_format <- function(toc = TRUE, ...) {
         code_folding = "show",
         css = css,
         number_sections = TRUE,
-        includes = rmarkdown::includes(after_body = footer, in_header = header),
+        includes = rmarkdown::includes(after_body = footer),
         ...
     )
 }
