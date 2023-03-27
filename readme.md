@@ -28,3 +28,16 @@ output:
 ---
 
 ```
+
+
+## Themes
+This package currently provides the following RMarkdown themes:
+
+my_html_format: A custom theme with the INSE¨P color scheme.
+
+
+## Contributing
+If you want to contribute to this package, please fork the repository and submit a pull request with your changes.
+
+## License
+This package is licensed under the MIT License. See the LICENSE file for details.
