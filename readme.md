@@ -8,7 +8,7 @@ This is an R package containing an RMarkdown theme that you can use to customize
 
 You can install this package directly from GitHub using the `devtools` package:
 
-```devtools::install_github("username/septhemes")```
+```devtools::install_github("ajmoralesa/septhemes")```
 
 
 
