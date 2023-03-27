@@ -33,7 +33,7 @@ output:
 ## Themes
 This package currently provides the following RMarkdown themes:
 
-my_html_format: A custom theme with the INSE¨P color scheme.
+    - `my_html_format`: A custom theme with the INSEP color scheme.
 
 
 ## Contributing
